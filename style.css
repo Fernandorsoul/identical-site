@@ -1,0 +1,98 @@
+body{
+    padding: 0;
+    margin: 0;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(194, 141, 61);
+    display:flex;
+    
+    
+        
+}
+
+.logo {
+    display: flex;
+    width: 120px;
+    border-radius: 80%;
+    border: 5px solid white;
+    float: left;
+    position:absolute;
+
+    
+    
+}
+.menu-produto{
+    width: 100%;
+    height: 40px;
+    background-color:rgb(129, 20, 20);
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+/*menu*/
+a{
+    display:inline ;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 30px;
+    margin: 1px;
+    border-left: 1px solid white;
+}
+.primeiro{
+    border: none;
+}
+a:hover{
+   background:  white;
+   color:rgb(129, 20, 20);
+    
+}
+/*search bar*/
+input{
+    color: white;
+    background:rgb(129, 20, 20);
+   
+    border: 1px solid whitesmoke;
+    margin-left: 30px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+
+input:active{
+    
+    color: white;
+}
+.barra-lateral-e{
+    float: left;
+    flex-direction: column;
+    border: 1px solid red;
+    margin: 10px;
+    width: 200px;
+
+
+}
+h2{
+    font-size: 16px;
+}
+#produtos{
+    margin: 10px;
+    float: left;
+    width: 80%;
+    height: 600px;
+    border: 2px solid blue;
+}
+#footer{
+    clear: both;
+    background-color: blue;
+    color: white;
+   text-align: center;
+}
